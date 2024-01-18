@@ -1,15 +1,15 @@
 <resources>
     <!-- Apps -->
     <string name="app_name">BoxForRoot</string>
-    <string name="min_module_vrsion">20230814</string>
+    <string name="min_module_vrsion" translatable="false">20230814</string>
     <string name="apps_count_list">added %d apps in mode %s</string>
     <string name="no_apps_count_list">mode %s</string>
-    <string name="ok">OK</string>
+    <string name="ok" translatable="false">OK</string>
     <string name="for_clash_only">clash only work on redir-host</string>
     <string name="module_not_found">Module Not Found</string>
     <string name="update_module">Please upgrade ur Module :)\nMinimum ver: %d</string>
-    <string name="module_repo_url">https://github.com/taamarin/box_for_magisk</string>
-    <string name="release_repo_url">https://github.com/taamarin/box_for_magisk/releases</string>
+    <string name="module_repo_url" translatable="false">https://github.com/taamarin/box_for_magisk</string>
+    <string name="release_repo_url" translatable="false">https://github.com/taamarin/box_for_magisk/releases</string>
 
     <string name="success">Success</string>
     <string name="failed">Failed</string>
@@ -32,8 +32,8 @@
     <string name="memcg">memcg</string>
     <string name="blkio">blkio</string>
     <string name="cpuset">cpuset</string>
-    <string name="quic">quic</string>
-    <string name="ipv6">ipv6</string>
+    <string name="quic" translatable="false">QUIC</string>
+    <string name="ipv6" translatable="false">IPV6</string>
     <string name="port_detect">port detect</string>
     <string name="crontab">crontab</string>
     <string name="geox">geox</string>
@@ -59,7 +59,7 @@
 
     <string-array name="clash_core_array">
         <item>premium</item>
-        <item>mihomo</item>
+        <item>mihomo[meta]</item>
     </string-array>
 
     <string-array name="network_array">

@@ -46,10 +46,13 @@ class DashboardFragment : Fragment(), IMakeDialog {
 
     @SuppressLint("SetJavaScriptEnabled")
     private fun showRes() = with(binding) {
-        val linkDB: String = if (SettingCmd.core == "clash") {
+        var linkDB: String = if (SettingCmd.core == "clash") {
             TermCmd.linkDBClash
         } else {
             TermCmd.linkDBSing
+        }
+        if (linkDB.startsWith(":")) {
+            linkDB = "0.0.0.0$linkDB"
         }
         dbWebview.loadUrl("${linkDB}/ui/#/proxies")
 

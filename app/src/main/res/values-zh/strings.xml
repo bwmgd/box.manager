@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BoxForRoot</string>
+    <string name="apps_count_list">已添加 %d 个apps 在 %s 模式中</string>
+    <string name="no_apps_count_list">模式 %s</string>
+    <string name="for_clash_only">clash 仅在主机重定向（redir-host）上工作</string>
+    <string name="module_not_found">未找到模块</string>
+    <string name="update_module">请升级您的模块:)</string>
+    <string name="success">成功</string>
+    <string name="failed">失败</string>
+    <string name="home">主页</string>
+    <string name="dashboard">仪表盘</string>
+    <string name="app">应用</string>
+    <string name="select_core">选择内核：</string>
+    <string name="clash_settings">clash 设置：</string>
+    <string name="find_procces">查找进程</string>
+    <string name="clash_options">clash 选项</string>
+    <string name="unified_delay">统一延迟（unified delay）[meta]</string>
+    <string name="sniffer">嗅探器（sniffer）[meta]</string>
+    <string name="redir_host">主机重定向（redir-host）</string>
+    <string name="geodata_meta">地理数据（geodata）[meta]</string>
+    <string name="subscription">订阅</string>
+    <string name="module_settings">模块设置：</string>
+    <string name="cgroup_settings">控制群组（cgroup）:</string>
+    <string name="memcg">内存组（memcg）</string>
+    <string name="blkio">阻塞IO（blkio）</string>
+    <string name="cpuset">cpu设置（cpuset）</string>
+    <string name="port_detect">端口检测</string>
+    <string name="crontab">定时任务（crontab）</string>
+    <string name="geox">geox 规则</string>
+    <string name="networkmode">网络模式</string>
+    <string name="proxymode">代理模式</string>
+    <string name="check_module">检查模块</string>
+    <string name="myip">我的IP</string>
+    <string name="setting">设置</string>
+
+
+    <!--Setting Dialog-->
+    <string-array name="core_array">
+        <item>clash</item>
+        <item>sing-box</item>
+        <item>xray</item>
+        <item>v2fly</item>
+    </string-array>
+
+    <string-array name="proc_array">
+        <item>关闭</item>
+        <item>默认</item>
+        <item>开启</item>
+    </string-array>
+
+    <string-array name="clash_core_array">
+        <item>premium</item>
+        <item>mihomo[meta]</item>
+    </string-array>
+
+    <string-array name="network_array">
+        <item>透明代理（tproxy）</item>
+        <item>重定向（redirect）</item>
+        <item>混合（mixed）</item>
+    </string-array>
+
+    <string-array name="proxy_array">
+        <item>tun</item>
+        <item>白名单</item>
+        <item>黑名单</item>
+    </string-array>
+</resources>
