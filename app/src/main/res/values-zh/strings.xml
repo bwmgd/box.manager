@@ -33,36 +33,4 @@
     <string name="check_module">检查模块</string>
     <string name="myip">我的IP</string>
     <string name="setting">设置</string>
-
-
-    <!--Setting Dialog-->
-    <string-array name="core_array">
-        <item>clash</item>
-        <item>sing-box</item>
-        <item>xray</item>
-        <item>v2fly</item>
-    </string-array>
-
-    <string-array name="proc_array">
-        <item>关闭</item>
-        <item>默认</item>
-        <item>开启</item>
-    </string-array>
-
-    <string-array name="clash_core_array">
-        <item>premium</item>
-        <item>mihomo[meta]</item>
-    </string-array>
-
-    <string-array name="network_array">
-        <item>透明代理（tproxy）</item>
-        <item>重定向（redirect）</item>
-        <item>混合（mixed）</item>
-    </string-array>
-
-    <string-array name="proxy_array">
-        <item>tun</item>
-        <item>白名单</item>
-        <item>黑名单</item>
-    </string-array>
 </resources>
